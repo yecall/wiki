@@ -1,0 +1,2 @@
+# wiki
+The YeeChain Wiki
