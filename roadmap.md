@@ -2,12 +2,21 @@
 
 ## Milestones
 
-*
-*
+* 2018 Q2，initial the project
+* 2018 Q3，P2p network's main functions completed
+* 2018 Q4, Core of Consensus algorithm Tetris finished, Tps of the demo mini blockchain exceed 10k.
+
+### v0.5 (2019 Q1)
+
+* Testnet will be online.
 
 ### v1.0 (2019 Q3)
 
+* Mainnet will be released.
+
 ### v2.0 (2019 Q4)
+
+* App engine supported
 
 ## Version
 
