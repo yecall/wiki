@@ -2,9 +2,9 @@
 
 ## Milestones
 
-* P2p network's main functions completed at the end of September,2018.
-* On November 16 2018, YEE pubilic chain technical white paper and Tetris consensus algorithm paper were officially released.
-* YEE mini blockchain demo exceeds 10k TPS (Transactions per second).
+* P2P network's main functions completed at the end of September 2018.
+* On Nov 16 2018, YEE pubilic chain technical white paper and Tetris consensus algorithm paper were officially released.
+* YEE mini blockchain demo exceeded 10k TPS (Transactions per second).
 
 ### v0.5 (2019 Q1)
 
@@ -16,7 +16,7 @@
 
 ### v2.0 (2019 Q4)
 
-*  support app engine.
+*  Supports app engine.
 
 ## Version
 
