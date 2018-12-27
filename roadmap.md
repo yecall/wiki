@@ -2,9 +2,9 @@
 
 ## Milestones
 
-* 2018 Q2, initial the project
-* 2018 Q3, P2p network's main functions completed
-* 2018 Q4, Core of Consensus algorithm Tetris finished, Tps of the demo mini blockchain exceed 10k.
+* P2p network's main functions completed at the end of September,2018.
+* On November 16 2018, YEE pubilic chain technical white paper and Tetris consensus algorithm paper were officially released.
+* YEE mini blockchain demo exceeds 10k TPS (Transactions per second).
 
 ### v0.5 (2019 Q1)
 
