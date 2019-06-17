@@ -10,4 +10,4 @@
 
 [The Design of Finality in Blockchain Consensus](./articles/design_of_finality_in_blockchain_consensus_en.md) 
 
-[PoW共识究竟好在哪儿？](./articles/what_is_good_about_pow_consensus.md)
+[PoW共识的本质优势](./articles/what_is_good_about_pow_consensus.md)
