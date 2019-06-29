@@ -1,5 +1,7 @@
 # The Design of Finality in Blockchain Consensus
 
+[@guoxbin](https://github.com/guoxbin)
+
 With the development of the blockchain technology, especially the continuous exploration of new technologies such as low-latency chain and cross-chain, finality has been discussed and studied in more cases. Before we start the discussion of finality design, let us first understand what is finality.
 
 The literal meaning of finality is immutability, and is a more ancient concept than “decentralization” and “consensus”. Since the birth of ledger,  people can discuss and define its finality, which has nothing to do with any technical issues, because ledger at that time is centralized (with a trust intermediary), and like correctness, finality is also the reflection of the will of the intermediary.
