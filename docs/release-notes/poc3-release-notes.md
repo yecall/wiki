@@ -47,7 +47,7 @@ If you want to run a full node and play it by RPC, you can follow the steps.
 1. Download [official docker image](https://hub.docker.com/r/yeeco/yeeroot) yeeco/yeeroot:20190730
 2. Start docker container, with a picked shard number
 ```
-docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190730 yee --shard-num=0
+docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190730 yee --shard-num=0 --bootnodes-routers=http://3.1.169.4:6666
 ``` 
 3. If you'd like to join in POW mining, append `--validator --coin-base=YourCoinBaseAddressHere` to the docker command line
 
