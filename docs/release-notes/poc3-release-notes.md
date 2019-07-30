@@ -1,6 +1,8 @@
 
 # PoC-3 Release Notes
 
+2019-07-30
+
 ## Table of Contents
 
 - [Description](#description)
@@ -38,7 +40,7 @@ PoC-3 is described in the [roadmap section](https://github.com/yeeco/yeeroot#roa
 ## How to engage
 
 ### As wallet users
-If you just want to try with token transfer, you can visit [poctest page](http://pocnet.yeeco.io),
+If you just want to try with token transfer, you can visit [poctest page](https://pocnet.yeeco.io),
 where you can create wallet, check balance and make transfers.
 
 ### As fullnode maintainers
