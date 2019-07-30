@@ -26,7 +26,7 @@ PoC-3 is described in the [roadmap section](https://github.com/yeeco/yeeroot#roa
     
 1. Static full sharding
 
-    The blockchain was initilize with **4 shards**, 
+    The blockchain was initilized with **4 shards**, 
     which means the workloads of network, transactions, executions, 
     storage are split into 4 independent and parallel parts. 
  
@@ -38,7 +38,7 @@ PoC-3 is described in the [roadmap section](https://github.com/yeeco/yeeroot#roa
 ## How to engage
 
 ### As wallet users
-If you just want to with token transfer, you can visit [poctest page](https://pocnet.yeeco.com),
+If you just want to try with token transfer, you can visit [poctest page](http://pocnet.yeeco.io),
 where you can create wallet, check balance and make transfers.
 
 ### As fullnode maintainers
