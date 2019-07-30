@@ -1,5 +1,5 @@
 
-# PoC-3 Release Notes
+# YeeCo PoC-3 Release Notes
 
 2019-07-30
 
