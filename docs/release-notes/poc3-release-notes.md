@@ -43,9 +43,13 @@ where you can create wallet, check balance and make transfers.
 
 ### As fullnode maintainers
 If you want to run a full node and play it by RPC, you can follow the steps.
+
+1. Download [official docker image](https://hub.docker.com/r/yeeco/yeeroot) yeeco/yeeroot:20190730
+2. Start docker container, with a picked shard number
 ```
-TODO
+docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190730 yee --shard-num=0
 ``` 
+3. If you'd like to join in POW mining, append `--validator --coin-base=YourCoinBaseAddressHere` to the docker command line
 
 ## Feedback
 Feel free to dive in! [Open an issue](https://github.com/yeeco/yeeroot/issues/new).
