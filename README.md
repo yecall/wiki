@@ -1,5 +1,8 @@
 # YeeCo Wiki
 
+## Wiki Home
+[Wiki Home](./wiki)
+
 ## Papers
 [YeeCo Whitepaper](./papers/YeeCo_Whitepaper_V0.2_en.pdf) [[ZH](./papers/YeeCo_Whitepaper_V0.2.pdf)]
 
