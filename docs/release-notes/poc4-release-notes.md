@@ -59,10 +59,10 @@ where you can create wallet, check balance and make transfers.
 ### As full node maintainers
 If you want to run a full node and play it by RPC, you can follow the steps.
 
-1. Download [official docker image](https://hub.docker.com/r/yeeco/yeeroot) yeeco/yeeroot:20190730
+1. Download [official docker image](https://hub.docker.com/r/yeeco/yeeroot) yeeco/yeeroot:20190924
 1. Start docker container, with a picked shard number
     ```
-    docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190730 yee --shard-num=0 --bootnodes-routers=http://3.1.169.4:6666
+    docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190924 yee --shard-num=0 --bootnodes-routers=http://3.1.169.4:6666
     ``` 
 
 1. If you'd like to join in POW mining.
@@ -70,7 +70,7 @@ If you want to run a full node and play it by RPC, you can follow the steps.
     1. Way 1: single mining
     
         ```
-        docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190730 yee --shard-num=0 --bootnodes-routers=http://3.1.169.4:6666 --validator --coin-base=YourCoinBaseAddressHere --mine
+        docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190924 yee --shard-num=0 --bootnodes-routers=http://3.1.169.4:6666 --validator --coin-base=YourCoinBaseAddressHere --mine
         ```
              
     1. Way 2: multi mining
@@ -78,10 +78,10 @@ If you want to run a full node and play it by RPC, you can follow the steps.
         1 ) Start 4 nodes of the 4 shards
         ```
         mkdir -p ./data/yee
-        docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190730 yee --shard-num=0 --rpc_port=9933 --ws_port=9944 --port=30333 --foreign_port=30334 --bath-path=/data/yee/shard_0 --bootnodes-routers=http://3.1.169.4:6666 --validator --coin-base=YourCoinBaseAddressHere
-        docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190730 yee --shard-num=1 --rpc_port=19933 --ws_port=19944 --port=31333 --foreign_port=31334 --bath-path=/data/yee/shard_1 --bootnodes-routers=http://3.1.169.4:6666 --validator --coin-base=YourCoinBaseAddressHere
-        docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190730 yee --shard-num=2 --rpc_port=29933 --ws_port=29944 --port=32333 --foreign_port=32334 --bath-path=/data/yee/shard_2 --bootnodes-routers=http://3.1.169.4:6666 --validator --coin-base=YourCoinBaseAddressHere
-        docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190730 yee --shard-num=3 --rpc_port=39933 --ws_port=39944 --port=33333 --foreign_port=33334 --bath-path=/data/yee/shard_3 --bootnodes-routers=http://3.1.169.4:6666 --validator --coin-base=YourCoinBaseAddressHere
+        docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190924 yee --shard-num=0 --rpc_port=9933 --ws_port=9944 --port=30333 --foreign_port=30334 --bath-path=/data/yee/shard_0 --bootnodes-routers=http://3.1.169.4:6666 --validator --coin-base=YourCoinBaseAddressHere
+        docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190924 yee --shard-num=1 --rpc_port=19933 --ws_port=19944 --port=31333 --foreign_port=31334 --bath-path=/data/yee/shard_1 --bootnodes-routers=http://3.1.169.4:6666 --validator --coin-base=YourCoinBaseAddressHere
+        docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190924 yee --shard-num=2 --rpc_port=29933 --ws_port=29944 --port=32333 --foreign_port=32334 --bath-path=/data/yee/shard_2 --bootnodes-routers=http://3.1.169.4:6666 --validator --coin-base=YourCoinBaseAddressHere
+        docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190924 yee --shard-num=3 --rpc_port=39933 --ws_port=39944 --port=33333 --foreign_port=33334 --bath-path=/data/yee/shard_3 --bootnodes-routers=http://3.1.169.4:6666 --validator --coin-base=YourCoinBaseAddressHere
         ```
    
         2 ) Prepare switch (works as a multi-miner) configuration file
@@ -106,7 +106,7 @@ If you want to run a full node and play it by RPC, you can follow the steps.
         
         3 ) Start switch
         ```
-        docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190730 yee switch --bath-path=/data/yee --mine
+        docker run -d --network=host -v ./data:/data yeeco/yeeroot:20190924 yee switch --bath-path=/data/yee --mine
         ```
 
 ## Feedback
