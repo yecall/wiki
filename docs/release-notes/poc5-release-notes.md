@@ -50,9 +50,9 @@ PoC-5 is described in the [roadmap section](https://github.com/yeeco/yeeroot#roa
     
     The yeeroot node can make consensus on block finalization by the voters which can be rotated when new block is mined.
 
-1. Relay proof
+1. Relay transaction verification
 
-    The yeeroot node implements strict proof of relay transactions by taking advantage of MMTP (Multi merkle tree proof) technology.
+    The yeeroot node implements strict verification of relay transactions by taking advantage of MMTP (Multi merkle tree proof) technology.
  
 1. Sharding scalability
 
