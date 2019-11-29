@@ -29,7 +29,7 @@ PoC-5 is described in the [roadmap section](https://github.com/yeeco/yeeroot#roa
     ```
     [SLIP-44](https://github.com/satoshilabs/slips/blob/master/slip-0044.md)
     
-    YeeCo address is encoded in the [bech32](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki) format, and use a HRP:
+    YeeCo address is encoded in the [bech32](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki) format, and use an HRP:
     ```
     Coin    Mainnet     Testnet
     YeeCo   yee         tyee
@@ -43,12 +43,12 @@ PoC-5 is described in the [roadmap section](https://github.com/yeeco/yeeroot#roa
     block_reward = 50 / shard_count + transaction_fees
     ```
     According to the `Conditional reward` design, 
-    the reward will be delayed util the miner exercises all the voting rights granted by the new block mined.
+    the reward will be delayed util the miner exercises all the voting rights granted by the block mined.
                                                                                             
  
 1. CRFG
     
-    The yeeroot node can make consensus on block finalization by the voters which can be rotated when new block is mined.
+    The yeeroot node can make consensus on block finalization by the voters which should be rotated when new block is mined.
 
 1. Relay transaction verification
 
@@ -56,7 +56,7 @@ PoC-5 is described in the [roadmap section](https://github.com/yeeco/yeeroot#roa
  
 1. Sharding scalability
 
-    The yeeroot node implements smooth scaling out. 
+    The yeeroot node supports smooth scaling out. 
     
 1. Block interval improvement
 
@@ -64,7 +64,7 @@ PoC-5 is described in the [roadmap section](https://github.com/yeeco/yeeroot#roa
     
 ### Limitations and future works
  
-1. To prevent a failure on finalization consensus, it's not recommended to change the authority key (used to exercise crfg voting). 
+1. To prevent a failure on finalization consensus, it's not recommended to change the authority key (used to exercise CRFG voting). 
 We will provide safe way to change authority key in further work.
     
 
