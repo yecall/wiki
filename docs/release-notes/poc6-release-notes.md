@@ -30,7 +30,7 @@ PoC-6 is described in the [roadmap section](https://github.com/yeeco/yeeroot#roa
 1. Block chain explorer
 
     A block chain explorer site for POCNET is provided, 
-    with which users can browse and search any blocks, transactions, accounts or events.
+    with which users can browse and search for any blocks, transactions, accounts or events.
       
     [https://pocnet.yeescan.org/](https://pocnet.yeescan.org/)         
     
@@ -41,9 +41,7 @@ PoC-6 is described in the [roadmap section](https://github.com/yeeco/yeeroot#roa
 1. Branch chain support
     
     The [yeebranch](https://github.com/yeeco/yeebranch) is provided, which is designed as layer 2 of YeeCo.
-    
-    Yeebranch is designed as layer 2 of YeeCo.
-    
+        
     The relationship of yeeroot and yeebranch is described as follows: 
     
     | Layer   | Name            |  Consensus   |  Transaction types   | 
