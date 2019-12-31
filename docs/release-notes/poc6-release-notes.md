@@ -40,7 +40,7 @@ PoC-6 is described in the [roadmap section](https://github.com/yeeco/yeeroot#roa
  
 1. Branch chain support
     
-    The [yeebranch]((https://github.com/yeeco/yeebranch)) is provided, which is designed as layer 2 of YeeCo.
+    The [yeebranch](https://github.com/yeeco/yeebranch) is provided, which is designed as layer 2 of YeeCo.
     
     Yeebranch is designed as layer 2 of YeeCo.
     
