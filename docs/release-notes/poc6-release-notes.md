@@ -20,7 +20,7 @@ PoC-6 is described in the [roadmap section](https://github.com/yeeco/yeeroot#roa
 > PoC-6: Cross chain (interoperate with branch chain) (2019-12)
 
 ### Feature list
-1. Restrict block validation
+1. Strict block validation
 
    * Relay transaction duplication validation.
    * Shard info validation.
