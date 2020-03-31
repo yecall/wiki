@@ -43,12 +43,13 @@ Testnet provides a relative stable protocol for building apps and other related 
 1. Block chain explorer
    
    * with which users can browse and search for any blocks, transactions, accounts or events.  
-   [URL](./)
+   [URL](https://testnet.yeescan.org/)
    
 1. Web wallet
 
    * with which users can create or import wallet, check balance and make transfers.  
-   [URL](./)
+   [URL](https://pocnet.yeescan.org/)  
+   Click the "Wallet" at the top right.
 
 
 ### Limitations and future works
@@ -59,10 +60,10 @@ Testnet provides a relative stable protocol for building apps and other related 
 
 ### As Developers
 If you are block chain app developers, you can check if there are projects interesting you 
-in our [Bounty Program](https://github.com/yeeco/yeeroot/wiki/Bounty-Program).
+in our [Bounty Program](https://github.com/yeeco/wiki/wiki/Bounty-Program).
 
 ### As wallet users
-If you just want to try with coin transfer, you can visit [POCNET Explorer](https://pocnet.yeescan.org),
+If you just want to try with coin transfer, you can visit [TESTNET Explorer](https://testnet.yeescan.org),
 where you can create or import wallet, check balance and make transfers.
 
 ### As full node maintainers
