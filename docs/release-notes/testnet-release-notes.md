@@ -48,7 +48,7 @@ Testnet provides a relative stable protocol for building apps and other related 
 1. Web wallet
 
    * with which users can create or import wallet, check balance and make transfers.  
-   [URL](https://pocnet.yeescan.org/)  
+   [URL](https://testnet.yeescan.org/)  
    Click the "Wallet" at the top right.
 
 
