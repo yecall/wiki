@@ -201,7 +201,7 @@ services:
             - --foreign-port=31333
             - --rpc-external
 ```
-- 其中的COINBASE放在另外的环境变量配置文件中
+- 其中的`COINBASE_*`放在另外的环境变量配置文件中
 - 若不参与挖矿可去掉`--validator`与`--coinbase`
 - 配置子命令`switch`所需的`switch.toml`文件，具体请参考上节内容
 
@@ -216,6 +216,8 @@ services:
 2. 启动`swith`程序，具体请参考该文档上述部分
 3. 下载[挖矿程序](https://github.com/yeeco/ccminer-yee/releases)
 4. 修改配置文件为switch中的参数，配置范例如下：
-`"algo" : "yee"`
-`"url": "127.0.0.1:10033"`
+```
+"algo" : "yee"
+"url": "127.0.0.1:10033"
+```
 5. 目前仅支持windows平台下的Nvidia显卡
