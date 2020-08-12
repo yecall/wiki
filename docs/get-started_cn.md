@@ -33,11 +33,6 @@ yee --shard-num=2 --base-path=/tmp/yee/shard_2
 yee switch --base-path=/tmp/yee/switch --rpc-port=10033 --rpc-external --enable-work-manager
 ``` 
 
-- `bootnodes-router`启动命令
-```shell script
-yee bootnodes-router --port=6666 --base-path=/tmp/yee/router
-```
-
 - 常用启动参数介绍
 
 参数名 | 使用说明
@@ -71,31 +66,6 @@ rpc = ["http://127.0.0.1:9932"]
 [shards.3]
 rpc = ["http://127.0.0.1:9933"]
 ```
-
-#### bootnodes-router配置
-
-在bootnodes-router启动参数里的base-path目录下新建`conf`目录，在该目录下新建文件`bootnodes-router.toml`，在该文件中需要配置各个分片的P2P连接信息，内容格式如下：
-```toml
-[shards]
-[shards.0]
-native = ["/ip4/127.0.0.1/tcp/30330/p2p/QmSoFFFPH6GFQU1BmsCVQ7oH5R9N2p8MJhHU8sBKnWua9x"]
-foreign = ["/ip4/127.0.0.1/tcp/31330/p2p/QmWJemf4ycUA2FWm4xjTYJERjzWNGYdTYzV8HLsHFLPsVj"]
-
-[shards.1]
-native = ["/ip4/127.0.0.1/tcp/30331/p2p/QmRaWWeKBUaB1cUKGQE6VXKYRCdZqrJnistPKuARLRa4NY"]
-foreign = ["/ip4/127.0.0.1/tcp/31331/p2p/QmUXSVwZ231tazECxhz2ZJTMHWUdKN5sXvPa5oK29oy7TK"]
-
-[shards.2]
-native = ["/ip4/127.0.0.1/tcp/30332/p2p/QmUPvdiVr1nKt4d6EXZSLMdEshs7a5xPVP9zj4uNmszfbM"]
-foreign = ["/ip4/127.0.0.1/tcp/31332/p2p/QmQLhj8PSzeZrCih3caCY7z4r2UyWjgtiPwUYsxVtoJ6ZQ"]
-
-[shards.3]
-native = ["/ip4/127.0.0.1/tcp/30333/p2p/QmT5JYjJHWPQ3Zwf5u9G6FJ3USLT6UBH5w6cfCsxwC9Nvt"]
-foreign = ["/ip4/127.0.0.1/tcp/31333/p2p/QmSghhMSyXv9oxepjndzdTTyyrrSUAJtRbQuVvWb6zTxML"]
-```
-
-备注：各节点nodekey在启动时可通过日志看到，也可以通过yee-util工具查看，具体请参考yee-util相关文档
-
 
 ## 基于docker部署节点
 1. 前置条件：安装docker的服务器，对docker有一定了解

@@ -36,11 +36,6 @@ yee --shard-num=2 --base-path=/tmp/yee/shard_2
 yee switch --base-path=/tmp/yee/switch --rpc-port=10033 --rpc-external --enable-work-manager
 ```
 
-- bootnodes-router start command：
-```shell script
-yee bootnodes-router --port=6666 --base-path=/tmp/yee/router
-```
-
 - Introduction to common startup parameters
 
  Parameter name | Instructions
@@ -73,30 +68,6 @@ rpc = ["http://127.0.0.1:9932"]
 [shards.3]
 rpc = ["http://127.0.0.1:9933"]
 ```
-
-#### bootnodes-router Configuration
-
-Create a new conf directory under the base-path directory in the bootnodes-router startup parameters, and create a new file bootnodes-router.toml in this directory. In this file, you need to configure the P2P connection information of each segment, the content format is as follows:
-```toml
-[shards]
-[shards.0]
-native = ["/ip4/127.0.0.1/tcp/30330/p2p/QmSoFFFPH6GFQU1BmsCVQ7oH5R9N2p8MJhHU8sBKnWua9x"]
-foreign = ["/ip4/127.0.0.1/tcp/31330/p2p/QmWJemf4ycUA2FWm4xjTYJERjzWNGYdTYzV8HLsHFLPsVj"]
-
-[shards.1]
-native = ["/ip4/127.0.0.1/tcp/30331/p2p/QmRaWWeKBUaB1cUKGQE6VXKYRCdZqrJnistPKuARLRa4NY"]
-foreign = ["/ip4/127.0.0.1/tcp/31331/p2p/QmUXSVwZ231tazECxhz2ZJTMHWUdKN5sXvPa5oK29oy7TK"]
-
-[shards.2]
-native = ["/ip4/127.0.0.1/tcp/30332/p2p/QmUPvdiVr1nKt4d6EXZSLMdEshs7a5xPVP9zj4uNmszfbM"]
-foreign = ["/ip4/127.0.0.1/tcp/31332/p2p/QmQLhj8PSzeZrCih3caCY7z4r2UyWjgtiPwUYsxVtoJ6ZQ"]
-
-[shards.3]
-native = ["/ip4/127.0.0.1/tcp/30333/p2p/QmT5JYjJHWPQ3Zwf5u9G6FJ3USLT6UBH5w6cfCsxwC9Nvt"]
-foreign = ["/ip4/127.0.0.1/tcp/31333/p2p/QmSghhMSyXv9oxepjndzdTTyyrrSUAJtRbQuVvWb6zTxML"]
-```
-
-Note: Nodekey of each node can be seen through the log at startup, or through the yee-util tool, please refer to the relevant documents.
 
 ## Deploy nodes based on docker 
 1.	Preconditions: Install the docker server, have a certain understanding of docker.
